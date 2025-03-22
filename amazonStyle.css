@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    padding:0.2rem;
+    justify-content: space-evenly;
+    padding:0.3rem;
+    overflow: hidden;
+}
+/*1*/
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url("./web-images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border:1.5px solid transparent;
+    border-radius: 2.5px;
+}
+.border:hover{
+    border:1.5px solid white;
+    cursor: pointer;
+}
+/*2*/
+.nav-add {
+    height:50px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.nav-add-icon {
+    margin-right: 8px;
+    color: #ccc;
+}
+.nav-add-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.t1 {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.t2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* 3 */
+.search-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    width: 800px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #dfdede;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: rgb(97, 95, 95);
+    font-size: 0.67rem;
+}
+.search-select:hover{
+    background-color:#ccc9c9;
+    color: rgb(58, 57, 57);;
+}
+
+.search-input{
+    background-color: white;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 0.95rem;
+    font-weight:540;
+    border: none;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(224, 197, 41);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: rgb(38, 36, 36);
+}
+.search-icon:hover{
+    background-color: rgb(203, 178, 38);;
+}
+
+/*4*/
+.right-box{
+display: flex;
+gap:0.5rem;
+
+}
+
+.contry{
+margin-left: 5px;
+height: 50px;
+width: 65px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.contry-flag {
+    height: 25px;
+    width: 22px;
+}
+.flag{
+height: 100%;
+width: 100%;
+}
+.contry-lang select{
+    border: none;
+    background-color: #0f1111;
+    color:white;
+    font-weight: bold;
+}
+
+/*5*/
+.account-box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50px;
+    width: 130px;
+}
+.account-greet{
+    margin-left: -50px;
+    font-size: 11px;
+}
+.account-select {
+    color: white;
+    border: none;
+    background-color: #0f1111;
+    font-weight:  bold;
+    font-size: 13px;
+}
+.return-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:50px ;
+    width: 76px;
+}
+.return-span{
+    margin-left: -14px;
+    font-size: 11px;
+}
+.order-span{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*6*/
+.cart-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 84px;
+}
+.shopping-cart{
+    font-size: 1.8rem;
+}
+
+/*part-2*/
+.nav-main{
+    display:flex;
+    align-items: center;
+    padding:0px 0px 0px 11px;
+    height: 39px;
+    background-color: #232f3E;
+    display: flex;
+}
+
+/*1*/
+.nav-all{
+    gap:5px;
+    height: 39px;
+    width: 59px;
+    color: white;
+}
+/*2*/
+.nav-fresh{
+    height:39px ;
+    width: 52px;
+}
+
+/*3*/
+.nav-mxplayer{
+    height: 39px;
+    width: 81px;
+}
+/*4*/
+.nav-sell{
+    height: 39px;
+    width: 41px;
+}
+/*5*/
+.nav-amazonpay{
+    height: 39px;
+    width: 96px;
+}
+/*6*/
+.nav-giftcard{
+    height: 39px;
+    width: 81px ;
+}
+/*7*/
+.nav-buy{
+    height: 39px;
+    width: 82px;
+}
+/*8*/
+.nav-amazonbasics{
+    height: 39px;
+    width: 108px;
+}
+/*9*/
+.nav-gift-ideas{
+    height: 39px;
+    width: 79px;
+}
+/*10*/
+.nav-home{
+    height: 39px;
+    width: 145px;
+}
+/*11*/
+.nav-browsing{
+    height: 39px;
+    width: 140px;
+}
+.nav-browse-history{
+    height:100%;
+    width: 100%;
+    background-color: #232f3E;
+    color: white;
+    border: none;
+}
+.nav-book{
+    height: 39px;
+    width: 56px;
+}
+.nav-customer{
+    height: 39px;
+    width: 128px;
+}
+.nav-subscribe{
+    height: 39px;
+    width: 130px;
+}
+.amazon{
+    height: 39px;
+    width: 132px;
+}
+
+.txt{
+    color: white;
+}
+.boxes{
+    font-weight: 530;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes:hover {
+    font-size:14.2px;
+}
